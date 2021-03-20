@@ -1,0 +1,13 @@
+ if (e.getSource()==Custom) //******************************
+
+        {
+
+            Point Size =  new Point(getToolkit().getBestCursorSize(30,30).width / 2, getToolkit().getBestCursorSize(30,30).height / 2);
+
+            //Point Size = new Point(15,15);
+
+            FrameCursor = getToolkit().createCustomCursor(getToolkit().getImage("mycursor.gif"),Size, "My cursor");
+
+            this.setCursor(FrameCursor);
+
+        }

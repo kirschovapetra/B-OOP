@@ -1,0 +1,91 @@
+package gui;
+
+import java.awt.*;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+
+public class Arrow extends Line2D.Double {
+    private Polygon arrow_head;
+
+    public Arrow(double x1, double y1, double x2, double y2, double arrow_head_height) {
+        super(x1, y1, x2, y2);
+
+        arrow_head = new Polygon();
+
+        //strana vrcholu sipky
+        double side = calcTriangleSide(arrow_head_height);
+        double alpha = calcAlpha(x1,y1,x2,y2);
+
+        //vrcholy trojuholnika - hrotu sipky
+        Point A = new Point((int)x2,(int)y2);
+        Point B = new Point((int)(x2-arrow_head_height),(int)(y2-side/2));
+        Point C = new Point((int)(x2-arrow_head_height),(int)(y2+side/2));
+
+        rotatePoint(B,A,alpha);
+        rotatePoint(C,A,alpha);
+
+        arrow_head.addPoint(A.x,A.y);
+        arrow_head.addPoint(B.x,B.y);
+        arrow_head.addPoint(C.x,C.y);
+
+    }
+
+    public Arrow(Point2D p1, Point2D p2, double arrow_head_height) {
+        super(p1, p2);
+        arrow_head = new Polygon();
+
+        //strana vrcholu sipky
+        double side = calcTriangleSide(arrow_head_height);
+        double alpha = calcAlpha(x1,y1,x2,y2);
+
+        //vrcholy trojuholnika - hrotu sipky
+        Point A = new Point((int)x2,(int)y2);
+        Point B = new Point((int)(x2-arrow_head_height),(int)(y2-side/2));
+        Point C = new Point((int)(x2-arrow_head_height),(int)(y2+side/2));
+
+        rotatePoint(B,A,alpha);
+        rotatePoint(C,A,alpha);
+
+        arrow_head.addPoint(A.x,A.y);
+        arrow_head.addPoint(B.x,B.y);
+        arrow_head.addPoint(C.x,C.y);
+
+
+
+
+    }
+    public void drawArrow(Graphics2D g2){
+        g2.draw(this);
+        g2.draw(this.arrow_head);
+    }
+
+
+
+    //vypocita stranu rovnoramenneho trojuholnika na zaklade jeho vysky
+    public double calcTriangleSide(double height){
+        return Math.sqrt(4/3*height*height);
+    }
+
+    //otoci bod okolo ineho bodu o uhol alpha
+    public void rotatePoint(Point point,Point center,double alpha){
+        int x = point.x;
+        int y = point.y;
+
+        int x_cent = center.x;
+        int y_cent = center.y;
+
+        int x_new = (int) ((x-x_cent)*Math.cos(alpha)-(y-y_cent)*Math.sin(alpha)+x_cent);
+        int y_new = (int) ((x-x_cent)*Math.sin(alpha)+(y-y_cent)*Math.cos(alpha)+y_cent);
+
+        point.setLocation(x_new,y_new);
+    }
+
+    public double calcAlpha(double x1, double y1, double x2, double y2){
+        return Math.sin((y2-y1)/distance(x1,y1,x2,y2));
+    }
+
+    //vzdialenost medzi 2 bodmi
+    public double distance(double x1,double y1,double x2, double y2) {
+        return Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1));
+    }
+}

@@ -1,0 +1,44 @@
+        if (e.getSource()==OpenFile)
+        {
+        FileDialog OpDialog = new FileDialog(this,"Otvor",FileDialog.LOAD);
+        OpDialog.setVisible(true);
+        if (OpDialog.getFile()!=null) {
+        try{
+            FileInputStream fis=new FileInputStream(OpDialog.getDirectory() + OpDialog.getFile());
+            InputStreamReader in=new InputStreamReader(fis);
+            BufferedReader b=new BufferedReader(in);
+            String obsah_suboru = "";
+            while (true)
+            {   String nacitana = b.readLine();
+                if (nacitana==null) break;
+                obsah_suboru=obsah_suboru + nacitana + "\n";
+           }
+            Edit.setText(obsah_suboru);
+            //Edit.append(obsah_suboru);
+            b.close();
+            }
+               catch (IOException exc)
+        {   System.out.println(exc); 
+        }
+        }
+        }
+        
+if (e.getSource()==SaveAsFile)
+        {
+        FileDialog SaveDialog = new FileDialog(this,"Uloz ako",FileDialog.SAVE);
+        SaveDialog.setVisible(true);
+        if (SaveDialog.getFile()!=null) {
+        try{
+        FileOutputStream fos=new FileOutputStream(SaveDialog.getDirectory() + SaveDialog.getFile());
+                OutputStreamWriter out=new OutputStreamWriter(fos);
+                PrintWriter p=new PrintWriter(out);
+                p.println(Edit.getText());
+                p.close();
+                }
+                catch (FileNotFoundException exc)
+            // F?ngt diese Exception ab.
+        {   System.out.println("Nie je taky subor");
+        }
+        
+        }
+        }   

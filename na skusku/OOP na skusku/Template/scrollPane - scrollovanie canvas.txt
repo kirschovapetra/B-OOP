@@ -1,0 +1,24 @@
+
+    public class MyCanvas extends Canvas {
+        @Override
+        public void paint(Graphics g) {
+            super.paint(g);
+            g.drawLine(0, 0, getWidth(), getHeight());
+        }
+    }
+
+    public static class MyFrame6 extends Frame {
+        private MyCanvas canvas = new MyCanvas();
+        private ScrollPane scrollPane = new ScrollPane(ScrollPane.SCROLLBARS_AS_NEEDED);
+
+
+        public MyFrame6(String title) throws HeadlessException {
+            super(title);
+            canvas.setSize(800, 800);
+            setSize(500, 500);
+            setLayout(new BorderLayout());
+
+            scrollPane.add(canvas);
+            add(scrollPane, BorderLayout.CENTER);
+        }
+    }

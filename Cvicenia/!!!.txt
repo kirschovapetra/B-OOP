@@ -1,0 +1,8 @@
+class MyButton extends Button implements ActionListener {
+	public MyButton(String label)
+	{	super (label); 
+		addActionListener(this); // Registruje MyButton ako Event-Listener.
+	}
+	public void actionPerformed (ActionEvent e)
+	{	System.out.println(e.getActionCommand()); }
+}
