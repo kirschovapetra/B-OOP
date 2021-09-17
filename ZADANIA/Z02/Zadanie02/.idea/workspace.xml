@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c2e60a0-8772-4d7f-97c8-1d8a08e5ee1f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xs:short</find>
+      <find>_</find>
+      <find>25</find>
+      <find>int</find>
+      <find>Point</find>
+      <find>int</find>
+      <find>Point</find>
+      <find>size</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>xs:int</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/petri_net_schema.xsd" />
+        <option value="$PROJECT_DIR$/src/main/resources/insurance.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/exceptions/TransitionNotFirableException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/exceptions/TransitionNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Transformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Place.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/RegularEdge2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/ResetEdge2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Transition2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Importer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/PetriNetTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/ArrowHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Place.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Edge2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Place2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/PNFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/GraphicsTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/PNCanvas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Transition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/TPEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/ResetEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/PTEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/PetriNet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jaxb-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jaxb-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxbgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie02 - Petra Kirschova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pepa\Desktop\jaxb-generator\src\main\java\sk\stuba\fei\oop\generated" />
+      <recent name="C:\Users\Pepa\Desktop\jaxb-generator\src\main\java\sk\stuba\fei\oop" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.stuba.fei.oop.Main" />
+      <module name="jaxb-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.stuba.fei.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c2e60a0-8772-4d7f-97c8-1d8a08e5ee1f" name="Default Changelist" comment="" />
+      <created>1554274485631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554274485631</updated>
+      <workItem from="1554274491996" duration="1188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1188000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498004" visible="true" weight="0.19894099" />
+      <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.501996" side_tool="true" weight="0.10461416" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" show_stripe_button="false" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" show_stripe_button="false" sideWeight="0.501996" side_tool="true" weight="0.10461416" />
+      <window_info id="Repositories" order="8" weight="0.32977587" />
+      <window_info anchor="bottom" id="Tail" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32707354" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920446" weight="0.32707354" />
+      <window_info anchor="bottom" x="1920" y="212" width="1920" height="1053" id="Debug" order="4" sideWeight="0.49893278" weight="0.35837245" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286385" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3254565" />
+      <window_info anchor="bottom" id="Graph Database Console" order="11" weight="0.51975214" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50160086" side_tool="true" weight="0.39205155" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" show_stripe_button="false" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49839914" weight="0.39097744" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.31768388" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
+      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JProfiler" order="21" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.2497332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.11152615" />
+      <window_info anchor="right" id="Graph Database" order="6" show_stripe_button="false" weight="0.32924226" />
+      <window_info anchor="right" id="Database" order="7" weight="0.13180363" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20811099" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" show_stripe_button="false" weight="0.32977587" />
+      <window_info anchor="right" id="Dynamic Members" order="12" weight="0.32975337" />
+      <window_info anchor="right" x="2020" y="99" width="2360" height="1213" id="DSM" order="13" type="FLOATING" />
+      <window_info anchor="right" id="Module Dependencies" order="14" weight="0.32975337" />
+      <window_info anchor="right" x="0" y="0" width="430" height="853" id="Documentation" order="15" side_tool="true" weight="0.32977587" />
+      <window_info anchor="right" id="Maven" order="16" weight="0.09304085" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498004" visible="true" weight="0.19288956" />
+      <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.501996" side_tool="true" weight="0.10461416" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" show_stripe_button="false" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" show_stripe_button="false" sideWeight="0.501996" side_tool="true" weight="0.10461416" />
+      <window_info id="Repositories" order="8" weight="0.32977587" />
+      <window_info anchor="bottom" id="Tail" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32707354" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920446" visible="true" weight="0.32707354" />
+      <window_info anchor="bottom" x="1920" y="212" width="1920" height="1053" id="Debug" order="4" sideWeight="0.49893278" weight="0.35837245" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286385" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3254565" />
+      <window_info anchor="bottom" id="Graph Database Console" order="11" weight="0.51975214" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50160086" side_tool="true" weight="0.39205155" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" show_stripe_button="false" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49839914" weight="0.39097744" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.31768388" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
+      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JProfiler" order="21" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.2497332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.11152615" />
+      <window_info anchor="right" id="Graph Database" order="6" show_stripe_button="false" weight="0.32924226" />
+      <window_info anchor="right" id="Database" order="7" weight="0.13180363" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20811099" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" show_stripe_button="false" weight="0.32977587" />
+      <window_info anchor="right" id="Dynamic Members" order="12" weight="0.32975337" />
+      <window_info anchor="right" x="2020" y="99" width="2360" height="1213" id="DSM" order="13" type="FLOATING" />
+      <window_info anchor="right" id="Module Dependencies" order="14" weight="0.32975337" />
+      <window_info anchor="right" x="0" y="0" width="430" height="853" id="Documentation" order="15" side_tool="true" weight="0.32977587" />
+      <window_info anchor="right" id="Maven" order="16" weight="0.09304085" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="file_dialog.getDirectory()" language="JAVA" />
+        <watch expression="pointLeft" language="JAVA" />
+        <watch expression="pointRight" language="JAVA" />
+        <watch expression="pointTop" language="JAVA" />
+        <watch expression="elements" language="JAVA" />
+        <watch expression="petriNet.getTransitions().get(transitionId)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>petriNet.getTransitions().get(transitionId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elements</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pointTop</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pointRight</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pointLeft</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file_dialog.getDirectory()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1088" column="22" selection-start-line="1088" selection-start-column="22" selection-end-line="1088" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/OOP/untitled/src/TestFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Transformer.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16100.12593/ObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa11684.20093/Place.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8352.34453/Doucovanie.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8352.34620/GeomTvar.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8352.34732/Kruh.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8352.34849/MyCanvas.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8352.34964/Stvorec.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12480.37497/Doucovanie.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12480.37646/GeomTvar.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12480.37771/Kruh.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12480.37866/MyCanvas.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12480.37966/Stvorec.java" />
+    <entry file="file://$USER_HOME$/Downloads/doucovanie_2018_apr_09_NB/Doucovanie/src/sk/stuba/fei/oop/Stvorec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/doucovanie_2018_apr_09_NB/Doucovanie/src/sk/stuba/fei/oop/MyCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/doucovanie_2018_apr_09_NB/Doucovanie/src/sk/stuba/fei/oop/Kruh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/doucovanie_2018_apr_09_NB/Doucovanie/src/sk/stuba/fei/oop/GeomTvar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/zadanie1vzor/zadanie2vzor/src/sk/stuba/fei/oop/assignment2/petrinet/PlaceTransitionArc.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/zadanie1vzor/zadanie2vzor/src/sk/stuba/fei/oop/assignment2/petrinet/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/zadanie1vzor/zadanie2vzor/src/sk/stuba/fei/oop/assignment2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Disk Google (kirschovapetra@gmail.com)/Škola/VŠ/poznamky/bc2 let/objektovo_orientovane_programovanie/2019/Cvicenia/Zadanie 01 - Petra Kirschova/src/PetriNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="223" selection-start-line="223" selection-end-line="277" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Disk Google (kirschovapetra@gmail.com)/Škola/VŠ/poznamky/bc2 let/objektovo_orientovane_programovanie/2019/Cvicenia/Zadanie 01 - Petra Kirschova/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/doucovanie_2018_apr_09_NB/Doucovanie/src/sk/stuba/fei/oop/Doucovanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2471#2472#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="method#Edge#0;class#Edge#0" />
+            <element signature="method#Edge#1;class#Edge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="method#Vertex#1;class#Vertex#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/TPEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/ResetEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/PTEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="method#setTokens#0;class#Place#0" />
+            <element signature="method#updateTokens#0;class#Place#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/petrinet/PetriNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+          <folding>
+            <element signature="method#addPTEdge#0;class#PetriNet#0" />
+            <element signature="method#addTPEdge#0;class#PetriNet#0" />
+            <element signature="method#addResetEdge#0;class#PetriNet#0" />
+            <element signature="method#addPTEdge#1;class#PetriNet#0" />
+            <element signature="method#addTPEdge#1;class#PetriNet#0" />
+            <element signature="method#delPlace#0;class#PetriNet#0" />
+            <element signature="method#delTransition#0;class#PetriNet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Transition2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/ResetEdge2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Place2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/RegularEdge2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/ArrowHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#distance#0;class#ArrowHead#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/PNFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1528#1847#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/PNCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#mousePressed#0;class#PNCanvas#0" />
+            <element signature="method#mouseReleased#0;class#PNCanvas#0" />
+            <element signature="method#mouseEntered#0;class#PNCanvas#0" />
+            <element signature="method#mouseExited#0;class#PNCanvas#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/PetriNetTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Importer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/gui/Edge2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Edge2D#0;class#Edge2D#0" />
+            <element signature="method#Edge2D#1;class#Edge2D#0" />
+            <element signature="method#Edge2D#2;class#Edge2D#0" />
+            <element signature="method#Edge2D#3;class#Edge2D#0" />
+            <element signature="method#setWeight#0;class#Edge2D#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/GraphicsTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#332#0" expanded="true" />
+            <element signature="method#transformPlaces#0;class#GraphicsTransformer#0" />
+            <element signature="method#transformTransitions#0;class#GraphicsTransformer#0" />
+            <element signature="method#findIntersection#0;class#GraphicsTransformer#0" />
+            <element signature="method#getIntersection#0;class#GraphicsTransformer#0" />
+            <element signature="method#findGeneratedPlace#0;class#GraphicsTransformer#0" />
+            <element signature="method#findGeneratedTransition#0;class#GraphicsTransformer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jaxb-generator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
